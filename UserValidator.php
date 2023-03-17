@@ -2,7 +2,7 @@
 #Validation
 namespace App;
 
-use App\Models\UserForLab;
+use App\UserForLab;
 use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\Validation;

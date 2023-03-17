@@ -1,10 +1,9 @@
 <?php
 #Main file
-use Illuminate\Support\Facades\Route;
 
-use App\Models\UserForLab;
+use App\UserForLab;
 use App\UserForLabInfo;
-use App\Models\Comment;
+use App\Comment;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,11 +14,6 @@ use App\Models\Comment;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-  return;
-});
-
 $user1 = new UserForLab(4, '12@mail.ru', 'I van1');
 UserForLabInfo::UserInfo($user1);
 echo ('<br>');

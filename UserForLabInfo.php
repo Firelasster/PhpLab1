@@ -2,7 +2,7 @@
 
 namespace App;
 #User
-use App\Models\UserForLab;
+use App\UserForLab;
 use App\UserValidator;
 // Класс для вывода информации о Пользователе(id,имя,mail,дата создания класса)
 class UserForLabInfo
